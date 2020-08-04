@@ -1,4 +1,4 @@
-# twitter-clone  \(• ◡ •)/
+# twitter-clone _&nbsp;_ \(• ◡ •)/
 ## Projeto twitter clone ampliado com interface e funcionalidades back-end do twitter usando arquitetura MVC.
 
 ## Funcionalidades:
