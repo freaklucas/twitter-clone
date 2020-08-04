@@ -1,4 +1,4 @@
-# twitter-clone \(• ◡ •)/ [celebrate]
+# twitter-clone [celebrate]
 ## Projeto twitter clone ampliado com interface e funcionalidades back-end do twitter usando arquitetura MVC.
 
 ## Funcionalidades:
@@ -18,9 +18,9 @@ Aplicação web possui intuito de se aproximar da interface e usabilidade do twi
 
 ## Rodando o projeto: :fast_forward:
 
-$ :aptitude install php7.0
+$ :aptitude install php7.0:
 
-$ :php -S localhost:8080
+$ :php -S localhost:8080:
 
 A porta pode ser de sua preferência, escolhi uma pouco usual para os testes
 
