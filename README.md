@@ -1,5 +1,5 @@
 # twitter-clone _&nbsp;_ \(• ◡ •)/
-## Projeto twitter clone ampliado com interface e funcionalidades back-end do twitter usando arquitetura MVC.
+Projeto twitter clone ampliado com interface e funcionalidades back-end do twitter usando arquitetura MVC.
 
 ## Funcionalidades:
 Aplicação web possui intuito de se aproximar da interface e usabilidade do twitter, logo usuário pode:
