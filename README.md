@@ -17,6 +17,12 @@ Aplicação web possui intuito de se aproximar da interface e usabilidade do twi
 - [sql](https://dev.mysql.com/doc/)
 
 ## Rodando o projeto: :fast_forward:
+Instalando apache:
+ sudo apt-get update
+ sudo apt-get install apache2
+ 
+ Instalando o lamp:
+  sudo apt-get install lamp-server^
 
 $ aptitude install php7.0
 
