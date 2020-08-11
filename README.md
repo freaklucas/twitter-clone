@@ -16,7 +16,7 @@ Aplicação web possui intuito de se aproximar da interface e usabilidade do twi
 - [bootstrap](https://getbootstrap.com/)
 - [sql](https://dev.mysql.com/doc/)
 
-## Rodando o projeto: :fast_forward:
+## Rodando o projeto :fast_forward:
 Instalando apache:
  sudo apt-get update
  sudo apt-get install apache2
@@ -30,7 +30,7 @@ $ php -S localhost:8080
 
 A porta pode ser de sua preferência, escolhi uma pouco usual para os testes
 
-## Estado do projeto: :alarm_clock:
+## Estado do projeto :alarm_clock:
 
 Aplicando novas funcionalidades, dentre essas, o desenvolvimento de um tema dark e um ajuste no front-end da aplicação
 
