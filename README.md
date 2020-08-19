@@ -17,7 +17,13 @@ Aplicação web possui intuito de se aproximar da interface e usabilidade do twi
 - [sql](https://dev.mysql.com/doc/)
 - [javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## Rodando o projeto: :fast_forward:
+## Rodando o projeto :fast_forward:
+Instalando apache:
+ sudo apt-get update
+ sudo apt-get install apache2
+ 
+ Instalando o lamp:
+  sudo apt-get install lamp-server^
 
 $ aptitude install php7.0
 
@@ -25,7 +31,7 @@ $ php -S localhost:8080
 
 A porta pode ser de sua preferência, escolhi uma pouco usual para os testes
 
-## Estado do projeto: :alarm_clock:
+## Estado do projeto :alarm_clock:
 
 Aplicando novas funcionalidades, dentre essas, o desenvolvimento de um tema dark e um ajuste no front-end da aplicação
 
