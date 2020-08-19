@@ -24,12 +24,16 @@ Instalando apache:
  
  Instalando o lamp:
   sudo apt-get install lamp-server^
+Intale o php
+ $ aptitude install php7.0
+Entre na pasta do projeto:
+ cd twitter-clone
+Entre dentro de public:
+ cd public
+Inicie uma porta do apache para rodar o projeto:
+ $ php -S localhost:8080
 
-$ aptitude install php7.0
-
-$ php -S localhost:8080
-
-A porta pode ser de sua preferência, escolhi uma pouco usual para os testes
+**A porta pode ser de sua preferência, escolhi uma pouco usual para os testes
 
 ## Estado do projeto :alarm_clock:
 
