@@ -15,6 +15,7 @@ Aplicação web possui intuito de se aproximar da interface e usabilidade do twi
 - [php](https://www.php.net/)
 - [bootstrap](https://getbootstrap.com/)
 - [sql](https://dev.mysql.com/doc/)
+- [javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## Rodando o projeto: :fast_forward:
 
