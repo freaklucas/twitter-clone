@@ -49,7 +49,7 @@ class Route extends Bootstrap {
 			'controller' => 'AppController',
 			'action' => 'tweet'
 		);
-
+		/* route reference */
 		$routes['quem_seguir'] = array(
 			'route' => '/quem_seguir',
 			'controller' => 'AppController',
@@ -60,6 +60,13 @@ class Route extends Bootstrap {
 			'route' => '/acao',
 			'controller' => 'AppController',
 			'action' => 'acao'
+		);
+
+		/* rota Removendo tweets */
+		$routes['remover_tweet'] = array(
+			'route' => '/remover_tweet',
+			'controller' => 'AppController',
+			'action' => 'removerTweet'
 		);
 
 		$this->setRoutes($routes);

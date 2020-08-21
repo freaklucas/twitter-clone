@@ -139,7 +139,7 @@ class Usuario extends Model{
 
     }
 
-    // método p recuperar o total de tweets
+    // método p recuperar o total de tweets p timeline
     public function getTotalTweets(){
         $query = "select count(*) as total_tweet from tweets where id_usuario = :id_usuario";
         $stmt  = $this->db->prepare($query);
@@ -170,6 +170,19 @@ class Usuario extends Model{
 
         return $stmt->fetch(\PDO::FETCH_ASSOC); // recuperando um unico array associativo
 
+    }
+
+    /* removendo tweets */
+
+    public function removerTweet($id_usuario_seguindo){
+        $query = "delete from tweet where id_usuario = :id_usuario and id_usuario_seguindo = :id_usuario_seguindo";
+        //id usuario seguindo igual ao parametro id usuario seguindo
+        $stmt = $this->db->prepare($query);
+        $stmt->bindValue(':id_usuario', $this->__get('id'));
+        $stmt->bindValue(':tweet', $tweet);
+        $stmt->execute();
+
+        return true;
     }
 }
 

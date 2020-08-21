@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@forevolve/bootstrap-dark": "^1.0.0-alpha.1091",
-    "dark-mode-switch": "^1.0.0"
-  }
-}

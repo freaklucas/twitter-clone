@@ -101,6 +101,21 @@ class AppController extends Action {
 
 		header('Location: /quem_seguir');
 	}
+	// /* Controlador de remoção */ Importante: deve executar um delete(tweet)
+
+	public function removerTweet() {
+
+		$this->validaAutenticacao();
+
+		$id = isset($_GET['id']) ? $_GET['id'] : '';
+
+		$tweet = Container::getModel('Tweet');
+		$tweet->__set('id', $id);
+
+		$tweet->remover();
+
+		header('Location: /timeline');
+	}
 }
 
 ?>
