@@ -11,10 +11,10 @@ Aplicação web possui intuito de se aproximar da interface e usabilidade do twi
 - [Sair de sua conta(logoff)]
 
 ## Passos utilizados no back end:
-1)implementação de método de controle (AppController.php)
-2)implementação do modelo (Tweet.php)
-3)implementação de uma rota (Route.php)
-4)implementação do método de envio no front end (timeline.phtml)
+- implementação de método de controle (AppController.php)
+- implementação do modelo (Tweet.php)
+- implementação de uma rota (Route.php)
+- implementação do método de envio no front end (timeline.phtml)
 
 
 ## Linguagens e libs utilizadas :books:
