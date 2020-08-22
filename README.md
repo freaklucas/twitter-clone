@@ -25,23 +25,23 @@ Aplicação web possui intuito de se aproximar da interface e usabilidade do twi
 
 ## Rodando o projeto :fast_forward:
 Instalando apache:
- sudo apt-get update
- sudo apt-get install apache2
+- sudo apt-get update
+- sudo apt-get install apache2
  
  Instalando o lamp:&nbsp;
-sudo apt-get install lamp-server^
+- sudo apt-get install lamp-server^
 
  Intale o php:&nbsp;
-$ aptitude install php7.0
+- $ aptitude install php7.0
 
  Entre na pasta do projeto:&nbsp;
-cd twitter-clone
+- cd twitter-clone
 
  Entre dentro de public:&nbsp;
-cd public
+- cd public
 
  Inicie uma porta do apache para rodar o projeto:&nbsp;
-$ php -S localhost:8080
+- $ php -S localhost:8080
 
 **A porta pode ser de sua preferência, escolhi uma pouco usual para os testes
 
