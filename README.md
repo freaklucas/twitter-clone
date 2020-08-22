@@ -1,5 +1,5 @@
 # twitter-clone _&nbsp;_ \(• ◡ •)/
-Projeto twitter clone ampliado com interface e funcionalidades back-end do twitter usando arquitetura MVC.
+Projeto twitter clone criado durante o curso web da udemy e ampliado com interface e funcionalidades back-end do twitter usando arquitetura MVC.
 
 ## Funcionalidades:
 Aplicação web possui intuito de se aproximar da interface e usabilidade do twitter, logo usuário pode:
@@ -9,6 +9,12 @@ Aplicação web possui intuito de se aproximar da interface e usabilidade do twi
 - [Realizar uma publicação na timeline para ele e seus amigos]
 - [Remover próprios tweets]
 - [Sair de sua conta(logoff)]
+
+## Passos utilizados no back end:
+1)implementação de método de controle (AppController.php)
+2)implementação do modelo (Tweet.php)
+3)implementação de uma rota (Route.php)
+4)implementação do método de envio no front end (timeline.phtml)
 
 
 ## Linguagens e libs utilizadas :books:
